@@ -1,0 +1,2 @@
+# Gambling Night Corporation
+ A Gambling é uma plataforma de jogos, com foco na melhor experiência do usuário, para isso ela tem um design agradável e dinâmicas de recompensas diversas, como os descontos tanto para jogos, dlc e até mesmo conteúdos personalizados. Para receber essas recompensas o usuário precisa seguir alguns requisitos, exemplos: Streak diário, compartilhamento entre amigos, horas jogadas e achievements.
