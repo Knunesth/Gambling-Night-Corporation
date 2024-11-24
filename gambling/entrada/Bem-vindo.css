@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body{ 
+    background: linear-gradient(rgba(15, 1, 65, 0.631), rgba(15, 1, 66, 0.699)), url('imgs/background_pagina_inicial.png') no-repeat center center;
+    background-size: cover; 
+    background-attachment: fixed;
+    
+}
+
+.entrada{
+    margin: 6% auto 0% auto;
+    text-align: center;
+}
+
+
+a{
+    color:white;
+}
+
+
+
+#gambling_logo{
+    width: 700px;
+}
