@@ -1,8 +1,10 @@
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 0%; 
     text-decoration: none;
 }
+
+/* alterações gerais */
 
 body{ 
     background: linear-gradient(rgba(15, 1, 65, 0.631), rgba(15, 1, 66, 0.699)), url('imgs/background_pagina_inicial.png') no-repeat center center;
@@ -11,18 +13,34 @@ body{
     
 }
 
-.entrada{
-    margin: 6% auto 0% auto;
-    text-align: center;
-}
-
-
 a{
     color:white;
 }
 
-
-
-#gambling_logo{
-    width: 700px;
+.entrada{
+    margin: 6% auto 0% auto;
+    text-align: center;
+    display: grid;
 }
+.entrada h1{
+    color: white;
+}
+
+
+    font-size: 40px;
+    border-radius: 15px;
+a{#4f146ccc
+    color:wh55e;
+}auto;500px 0  0 500px
+}
+
+#rodape_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+#rodape_top ul > li{
+    
+}
+    heiheight: ;450px0 5   
+
