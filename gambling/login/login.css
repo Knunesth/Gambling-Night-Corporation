@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+body{ 
+    background: linear-gradient(rgba(15, 1, 65, 0.631), rgba(15, 1, 66, 0.699)), url('../../imgs/background_pagina_inicial.png') no-repeat center center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.navbar{
+    display: flex;
+    margin: 0 15px;
+    justify-content: space-between;
+}
+
+.navbar img{
+    width: 200px;
+    
+}
+
+.navbar h1{
+    font-size: 25px;
+    margin-top: 12px;
+    margin-right: 65%;
+    background-color: blueviolet;
+}

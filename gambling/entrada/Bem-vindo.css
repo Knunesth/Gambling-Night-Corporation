@@ -1,28 +1,135 @@
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 0%; 
     text-decoration: none;
+    list-style: none;
 }
 
+/* alterações gerais */
+
 body{ 
-    background: linear-gradient(rgba(15, 1, 65, 0.631), rgba(15, 1, 66, 0.699)), url('imgs/background_pagina_inicial.png') no-repeat center center;
+    background: linear-gradient(rgba(15, 1, 65, 0.631), rgba(15, 1, 66, 0.699)), url('../imgs/background_pagina_inicial.png') no-repeat center center;
     background-size: cover; 
     background-attachment: fixed;
-    
+    font-family: 'Poppins';
+}
+
+a{
+    color: white;
+}
+
+footer{
+    margin-top: 10%;
+    display: grid;
+    background-color: #1D004F;
+    width: 100%;
+}
+
+p{
+    color: white;
+    opacity: 50%;
+    margin-left: 50px;
+}
+
+p1{
+    color: white;
+    opacity: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo{
+    margin: 5% auto 0px auto;
+}
+
+.pena{
+    margin: 3% 0px;
+}
+
+
+.icons{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: auto;
 }
 
 .entrada{
-    margin: 6% auto 0% auto;
+    margin: auto;
+    text-align: center;
+    display: grid;
+}
+
+.entrada > a{
+    font-size: 1.8em;
+    border-radius: 15px;
+    background-color: #4f146ccc;
+    margin: 0 auto 0 auto;
+    padding: 0.5% 6%;
+    filter: drop-shadow(4px 3px 3px black);
+}
+
+.entrada > a:hover{
+    background-color: #4f146c;
+}
+
+#gambling_logo{
+    position: static;
+    float: inline-start;
+}
+
+.rodape_top{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+.rodape_top > img{
+    margin-left: 20px;
+    
+    
+}
+
+.rodape_top > p{
+    font-size: smaller;
+}
+
+
+#rodape_center{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 10%;
+}
+
+#rodape_center li{
+    padding: 10px;
+}
+
+#rodape_center a{
+    text-decoration: underline;
+}
+
+
+.rodape_bottom{
+    margin-top: 0.5%;
+    font-size: smaller;
     text-align: center;
 }
 
-
-a{
-    color:white;
+.rodape_bottom > p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2%px;
+    padding-bottom: 40px;
 }
 
-
-
 #gambling_logo{
-    width: 700px;
+    width: 400px;
+}
+
+#leve{
+    display: block;
+    margin: 5px auto;
+    width: 250px;
+    height: 250px;
 }
