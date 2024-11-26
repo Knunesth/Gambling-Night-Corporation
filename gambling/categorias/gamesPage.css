@@ -1,0 +1,99 @@
+
+/* cabeçalho */
+header{
+    display: flex;
+    background: linear-gradient(rgba(6, 1, 27, 0.438), rgba(15, 1, 66, 0.699));
+    
+}
+
+header img{
+    margin: 0.8%;
+}
+
+nav{
+    margin: auto;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    display: flex;
+   
+}
+
+nav li{
+    margin: auto 20%;
+    justify-content: space-between; 
+}
+/* Fim do cabeçalho */
+
+/* Estilos Gerais do Rodapé */
+footer {
+    margin-top: 10%;
+    display: grid;
+    background-color: #1D004F;
+    width: 100%;
+}
+
+/* Rodapé - Seção Superior */
+.rodape_top {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: -40%;
+    left: auto;
+
+}
+
+.rodape_top > img {
+    margin-left: 20px;
+}
+
+.rodape_top > p {
+    font-size: smaller;
+    opacity: 50%;
+}
+
+/* Rodapé - Links do Centro */
+#rodape_center {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 10%;
+}
+
+#rodape_center li {
+    padding: 10px;
+}
+
+#rodape_center a {
+    text-decoration: underline;
+}
+
+#rodape_center a:hover{
+    color: rgba(255, 255, 255, 0.76);
+    
+}
+
+/* Rodapé - Ícones */
+.icons {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: auto;
+}
+
+/* Rodapé - Seção Inferior */
+.rodape_bottom {
+    margin-top: 0.5%;
+    font-size: smaller;
+    text-align: center;
+    opacity: 50%;
+}
+
+.rodape_bottom > p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2%px;
+    padding-bottom: 40px;
+}
